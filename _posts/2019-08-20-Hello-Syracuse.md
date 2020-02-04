@@ -79,10 +79,11 @@ Regular Expression: a tiny, highly specialized programming language
 ### 替换
 
 s/<替代的pattern>/<被替代的单词>
-`e.g. s/colour/color
-`
+
+`e.g. s/colour/color`
 ### capture group
 空格可以保存一个pattern在memory里，然后可以通过 \1（register）来简单访问前面第一个捕捉到的group
+
 `e.g. ([0-9]+)\1   --------  ada *233233* 145145 daww `
 
 >  如果不想使用捕捉的特性，则在左括号后加一个问号?
@@ -108,24 +109,29 @@ e.
 ***
 ### python简单实用正则表达式
 1. 第一种用法
+
 	`pattern = re.compile(“<regular expr>”)`
 	`m = pattern.search(string)`
+	
 2. 第二种用法
+
 	`'re.match(“<regular expr>”, string)' `
+	
 3. 其他常用函数
-	`'pattern.match' #返回true如果字符串的开头匹配`
-	`'pattern.search' #搜索字符串，任意位置找到或者没找到，返回 *MatchObject* or None`
-	`'pattern.findall' #返回所有匹配项存在list中返回`
+
+	<br/>`'pattern.match' #返回true如果字符串的开头匹配`<\br>
+	<br/>`'pattern.search' #搜索字符串，任意位置找到或者没找到，返回 *MatchObject* or None`<\br>
+	<br/>`'pattern.findall' #返回所有匹配项存在list中返回`<\br>
 
 	- *MatchObject* 也有一些函数
-		`match.group() 返回匹配的string`
-		`match.start() 返回匹配项起始位置`
-		`match.end() 返回匹配项的最后位置`
-		`match.span() 返回start和end位置的tuple`
+		<br/>`match.group() 返回匹配的string`<\br>
+		<br/>`match.start() 返回匹配项起始位置`<\br>
+		<br/>`match.end() 返回匹配项的最后位置`<\br>
+		<br/>`match.span() 返回start和end位置的tuple`<\br>
 4. 替代  
 
-	`'p=re.compile("pattern")' `
-	`'string = p.sub("<替代值>",string)'`
+	<br/>`'p=re.compile("pattern")' `<\br>
+	<br/>`'string = p.sub("<替代值>",string)'`<\br>
 	
 ***
 以上就是nlp第四周有关正则表达式的内容，欢迎指正
