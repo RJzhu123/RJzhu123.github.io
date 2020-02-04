@@ -30,12 +30,13 @@ Regular Expression: a tiny, highly specialized programming language
 >本文用Perl习惯即//来表示正则表达式
 
 #### 普通匹配
-| Pattern       | Matches       |Example                      |
-| ------------- |:-------------:| ---------------------------:|
-| woodchuck     | woodchuck     | The *woodchuck* eats lettuce|
+| Pattern       | Matches       |Example                        |
+| ------------- |:-------------:| -----------------------------:|
+| woodchuck     | woodchuck     | The *woodchuck* eats lettuce  |
 
 #### 可替代的匹配
 用方括号包住的表示alternative（可替代）
+
 | Pattern       | Matches             |Example     |
 | ------------- |:-------------------:| ----------:|
 | [wW]oodchuck  | Woodchuck, woodchuck| *Woodchuck*|
