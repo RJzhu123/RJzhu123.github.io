@@ -28,7 +28,6 @@ Regular Expression: a tiny, highly specialized programming language
 - embadded inside Python, Perl, Java, php and other languages
 - match or replace patterns
 
->本文用Perl习惯即//来表示正则表达式
 
 ***
 
@@ -63,8 +62,8 @@ Regular Expression: a tiny, highly specialized programming language
 - . : 表示任意字符
 - {m}: 把之前的字符重复m次
 - {m,n}: 把之前的字符重复m-n次
-`Xyz{3}: abx*Xyzzz*`
-`abc{1,5}: xycabcc tfeabcccc`
+<br/>`Xyz{3}: abx*Xyzzz*` </br>
+<br/>`abc{1,5}: xycabcc tfeabcccc`</br>
 
 ### 开头和结尾(Anchor tags): ^ 和 $
 - ^\[A-Z]  : 开头任意大写字母
