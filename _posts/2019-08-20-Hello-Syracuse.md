@@ -62,8 +62,8 @@ Regular Expression: a tiny, highly specialized programming language
 - . : 表示任意字符
 - {m}: 把之前的字符重复m次
 - {m,n}: 把之前的字符重复m-n次
-<br/>`Xyz{3}: abx*Xyzzz*`</br>
-<br/>`abc{1,5}: xycabcc tfeabcccc`</br>
+<br/>`Xyz{3}: abx*Xyzzz*` </br>
+<br/>`abc{1,5}: xycabcc tfeabcccc` </br>
 
 ### 开头和结尾(Anchor tags): ^ 和 $
 - ^\[A-Z]  : 开头任意大写字母
@@ -116,18 +116,18 @@ e.
 	`'re.match(“<regular expr>”, string)' `
 	
 3. 其他常用函数
-	<br/>`'pattern.match' #返回true如果字符串的开头匹配`<\br>
-	<br/>`'pattern.search' #搜索字符串，任意位置找到或者没找到，返回 *MatchObject* or None`<\br>
-	<br/>`'pattern.findall' #返回所有匹配项存在list中返回`<\br>
+	<br/>`'pattern.match' #返回true如果字符串的开头匹配`</br>
+	<br/>`'pattern.search' #搜索字符串，任意位置找到或者没找到，返回 *MatchObject* or None`</br>
+	<br/>`'pattern.findall' #返回所有匹配项存在list中返回`</br>
 
 	- *MatchObject* 也有一些函数
-		<br/>`match.group() 返回匹配的string`<\br>
-		<br/>`match.start() 返回匹配项起始位置`<\br>
-		<br/>`match.end() 返回匹配项的最后位置`<\br>
-		<br/>`match.span() 返回start和end位置的tuple`<\br>
+		<br/>`match.group() 返回匹配的string`</br>
+		<br/>`match.start() 返回匹配项起始位置`</br>
+		<br/>`match.end() 返回匹配项的最后位置`</br>
+		<br/>`match.span() 返回start和end位置的tuple`</br>
 4. 替代  
-	<br/>`'p=re.compile("pattern")' `<\br>
-	<br/>`'string = p.sub("<替代值>",string)'`<\br>
+	<br/>`'p=re.compile("pattern")' `</br>
+	<br/>`'string = p.sub("<替代值>",string)'`</br>
 	
 ***
 以上就是nlp第四周有关正则表达式的内容，欢迎指正
