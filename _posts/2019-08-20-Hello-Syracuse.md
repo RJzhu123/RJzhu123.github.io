@@ -66,7 +66,6 @@ Regular Expression: a tiny, highly specialized programming language
 `Xyz{3}: abx*Xyzzz*`
 `abc{1,5}: xycabcc tfeabcccc`
 
-
 ### 开头和结尾(Anchor tags): ^ 和 $
 - ^\[A-Z]  : 开头任意大写字母
 - ^\[^A-Za-z] : 开头非字母
@@ -118,7 +117,6 @@ e.
 	`'re.match(“<regular expr>”, string)' `
 	
 3. 其他常用函数
-
 	<br/>`'pattern.match' #返回true如果字符串的开头匹配`<\br>
 	<br/>`'pattern.search' #搜索字符串，任意位置找到或者没找到，返回 *MatchObject* or None`<\br>
 	<br/>`'pattern.findall' #返回所有匹配项存在list中返回`<\br>
