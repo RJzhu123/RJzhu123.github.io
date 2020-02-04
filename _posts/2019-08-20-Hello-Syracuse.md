@@ -62,7 +62,7 @@ Regular Expression: a tiny, highly specialized programming language
 - . : 表示任意字符
 - {m}: 把之前的字符重复m次
 - {m,n}: 把之前的字符重复m-n次
-<br/>`Xyz{3}: abx*Xyzzz*` </br>
+<br/>`Xyz{3}: abx*Xyzzz*`</br>
 <br/>`abc{1,5}: xycabcc tfeabcccc`</br>
 
 ### 开头和结尾(Anchor tags): ^ 和 $
@@ -101,18 +101,18 @@ s/<替代的pattern>/<被替代的单词>
 如果不认为设置，默认的匹配原则是贪婪的，即选最多最长的
 e.
 
-* greedy: /^.\*t/ *a076bt876xyt*dx
-* non-greedy: /^.\*?t/ *a076bt*876xytdx
+* greedy:  
+`/^.\*t/ *a076bt876xyt*dx`
+* non-greedy:  
+`/^.\*?t/ *a076bt*876xytdx`
 
 ***
 ### python简单实用正则表达式
-1. 第一种用法
-
+1. 第一种用法  
 	`pattern = re.compile(“<regular expr>”)`
 	`m = pattern.search(string)`
 	
-2. 第二种用法
-
+2. 第二种用法  
 	`'re.match(“<regular expr>”, string)' `
 	
 3. 其他常用函数
@@ -126,7 +126,6 @@ e.
 		<br/>`match.end() 返回匹配项的最后位置`<\br>
 		<br/>`match.span() 返回start和end位置的tuple`<\br>
 4. 替代  
-
 	<br/>`'p=re.compile("pattern")' `<\br>
 	<br/>`'string = p.sub("<替代值>",string)'`<\br>
 	
