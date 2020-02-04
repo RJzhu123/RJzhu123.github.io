@@ -15,7 +15,9 @@ tags:                               #标签
 
 ## **Resources**
 [Python Regex Cheatsheet](https://www.debuggex.com/cheatsheet/regex/python)
+
 [测试regex网站](https://regex101.com/)
+
 [regex cheatsheet](http://web.mit.edu/hackl/www/lab/turkshop/slides/regex-cheatsheet.pdf)
 
 ## **Lecture Content**
@@ -27,12 +29,12 @@ Regular Expression: a tiny, highly specialized programming language
 
 >本文用Perl习惯即//来表示正则表达式
 
-####普通匹配
+#### 普通匹配
 | Pattern       | Matches       |Example                      |
 | ------------- |:-------------:| ---------------------------:|
 | woodchuck     | woodchuck     | The *woodchuck* eats lettuce|
 
-####可替代的匹配
+#### 可替代的匹配
 用方括号包住的表示alternative（可替代）
 | Pattern       | Matches             |Example     |
 | ------------- |:-------------------:| ----------:|
