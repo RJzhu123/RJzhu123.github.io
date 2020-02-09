@@ -1,13 +1,15 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      707_2_Association Rules(关联规则)入门          # 标题 
-subtitle:   ist707 #副标题
+title:      Association Rules(关联规则)入门          # 标题 
+subtitle:   ist707_2 #副标题
 date:       2020-02-09              # 时间
 author:     renjie                      # 作者
 header-img: img/aurora.jpeg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
     - data mining
+    
+    
     
 ## Association Rules(关联规则)入门
 
