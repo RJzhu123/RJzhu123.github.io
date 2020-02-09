@@ -7,7 +7,7 @@ author:     renjie                      # 作者
 header-img: img/aurora.jpeg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
-    - data mining
+    - data mining, machine learning
 ---
 <font size="4"></font><br />    
     
