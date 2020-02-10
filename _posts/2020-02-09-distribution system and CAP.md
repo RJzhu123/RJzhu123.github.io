@@ -55,11 +55,15 @@ A distributed system is a collection of independent computers that appear to the
 >All nodes see the same data at the same time
 
 **一致性**。写操作之后的读操作，必须返回该值。举例来说，某条记录是 v0，用户向 G1 发起一个写操作，将其改为 v1。
-<center><img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbr2i0g90yj30as08kmx1.jpg"width="40%"/></center>
+<center>
+    <img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbr2i0g90yj30as08kmx1.jpg"width="40%"/>
+</center>
 之后读取就应该得到v1。  
 
 问题是，用户有可能向 G2 发起读操作，由于 G2 的值没有发生变化，因此返回的是 v0。G1 和 G2 读操作的结果不一致，这就不满足一致性了。
-<center><img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbr2kz165gj309n08h745.jpg"width="40%"/></center>
+<center>
+    <img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbr2kz165gj309n08h745.jpg"width="40%"/>
+</center>
 
 为了让 G2 也能变为 v1，就要在 G1 写操作的时候，让 G1 向 G2 发送消息，要求 G2 也改成 v1。
 
