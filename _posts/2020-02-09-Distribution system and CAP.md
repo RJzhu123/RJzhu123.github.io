@@ -42,7 +42,7 @@ A distributed system is a collection of independent computers that appear to the
 > 参考资料 [https://www.ruanyifeng.com/blog/2018/07/cap.html](https://www.ruanyifeng.com/blog/2018/07/cap.html)
 
 ![](https://tva1.sinaimg.cn/large/0082zybpgy1gbr1nhk7dmj31na0t2to0.jpg)
-<font size="4"> **1. Partition tolerance** </font>
+<b><font size="4">1. Partition tolerance</font></b>
 > Network failures are tolerated, the system continues to operate
 
 **分区容错**. 大多数分布式系统都分布在多个子网络。每个子网络就叫做一个区（partition）。  
@@ -51,7 +51,7 @@ A distributed system is a collection of independent computers that appear to the
 
 上图中，G1 和 G2 是两台跨区的服务器。G1 向 G2 发送一条消息，G2 可能无法收到。系统设计的时候，必须考虑到这种情况。  
 
-<font size="4"> **2. Consistency** </font>
+<b><font size="4">2. Consistency</font></b>
 >All nodes see the same data at the same time
 
 **一致性**。写操作之后的读操作，必须返回该值。举例来说，某条记录是 v0，用户向 G1 发起一个写操作，将其改为 v1。
@@ -63,18 +63,18 @@ A distributed system is a collection of independent computers that appear to the
 
 为了让 G2 也能变为 v1，就要在 G1 写操作的时候，让 G1 向 G2 发送消息，要求 G2 也改成 v1。
 
-<font size="4"> **3. Availability** </font>
+<b><font size="4">3. Availability</font></b>
 >Assurances that every request can be processed.  
 
 只要收到用户的请求，服务器就必须给出回应。
 
 用户可以选择向 G1 或 G2 发起读操作。不管是哪台服务器，只要收到请求，就必须告诉用户，到底是 v0 还是 v1，否则就不满足可用性。
 
-<font size="4"> 为什么cap不能同时满足 </font>
+<b><font size="4"> 为什么cap不能同时满足 </font></b>
 >Suppose we lose communication between nodes:
 We must ignore any updates the nodes receive, or sacrifice Consistency, or we must deny service until it becomes Available again.  
 
 简单的说，如果G1变了，那么在同步G2的过程中，G2的读和写都需要被锁定。不然就违背了**一致性**，而若是锁定G2那就违背了**可用性**。而分区容错是一定要有的，因为没人可以保证网络永远不出错。
 
-<font size="4">**几个数据库例子**</font>
+<b><font size="4">几个数据库例子</font></b>
 <center><img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbr2v3wrc6j313m0u0tnc.jpg" width="70%"/></center>
