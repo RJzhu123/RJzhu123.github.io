@@ -16,7 +16,7 @@ tags:                               #标签
 ![](https://tva1.sinaimg.cn/large/0082zybpgy1gbvcy5ys3mj313c0tyqa1.jpg)
 
 ### 算法
-<img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbwlg5x49jj30ln08wjsa.jpg"width="80%"/>
+<img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbwlg5x49jj30ln08wjsa.jpg" width="80%"/>
 
 #### 树的分叉方式: 两分叉或者多分叉
 #### 1.Categorical Attributes
@@ -33,10 +33,10 @@ tags:                               #标签
 > measure the impurity of a data set (Noise Level)
 
 ![](https://tva1.sinaimg.cn/large/0082zybpgy1gbwlpapyhuj30nn02kq34.jpg)
-<img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbwlpk2zchj30s0080js7.jpg"width="90%"/>
+<img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbwlpk2zchj30s0080js7.jpg" width="90%"/>
 
 一半一半的时候熵值为1， 全为某个值的时候熵为0（极限）
-<img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbwlrjybb0j30h80bqjta.jpg"width="70%"/>
+<img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbwlrjybb0j30h80bqjta.jpg" width="70%"/>
 
 
 #### Information Gain (IG) -信息增益
@@ -70,7 +70,7 @@ tags:                               #标签
 看作if else 的嵌套进行理解
 
 #### Decision Tree 的应用范围：非线性关系
-<img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbwmcw6qe6j30vi0fg0vy.jpg"width="70%"/>
+<img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbwmcw6qe6j30vi0fg0vy.jpg" width="70%"/>
 
 #### overfitting -过拟合 
 
