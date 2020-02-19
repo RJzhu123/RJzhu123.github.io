@@ -95,9 +95,9 @@ Accuracy是最简单明了的方法，但是有局限性，特别是dataset为sk
 ![](https://tva1.sinaimg.cn/large/0082zybpgy1gc2bh0nb3fj316o0u0q95.jpg)
 
 如果data sample不够，可以采取以下方法（不展开）  
-- **Semi-supervised learning  **
-- **Active Learning  **
-- **Crowdsourcing   **
+- **Semi-supervised learning**
+- **Active Learning**
+- **Crowdsourcing**
 
 课程上的内容比较基础简单，详见islr
 
