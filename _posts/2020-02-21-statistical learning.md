@@ -106,5 +106,7 @@ ps：在线性回归中，mle得到和least squares同样的公式
 
 <img src="https://tva1.sinaimg.cn/large/0082zybpgy1gc412h0jgkj30cv01oaa0.jpg" width="40%"/>
 
+[矩阵推导看这个大佬的blog](https://iewaij.github.io/introDataScience/OLS.html)
+
 ### 小结
 简单开个头，具体islr内容再补充ing...
