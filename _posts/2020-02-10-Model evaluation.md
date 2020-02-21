@@ -81,6 +81,22 @@ Accuracy是最简单明了的方法，但是有局限性，特别是dataset为sk
 
 <img src="https://tva1.sinaimg.cn/large/0082zybpgy1gc2aoamnspj30jo04agm1.jpg" width="70%"/>
 
+
+#### ROC曲线
+> Receiver Operating Characteristic (ROC) Curve
+
+![](https://tva1.sinaimg.cn/large/0082zybpgy1gc4g8zfnrlj30n504p3z6.jpg)
+曲线是对于TPR和FPR做的图。对于不同的threhold，算出各自的TPR和FPR
+![](https://tva1.sinaimg.cn/large/0082zybpgy1gc4gebm9uij30pw0bftag.jpg)
+![](https://tva1.sinaimg.cn/large/0082zybpgy1gc4gey05maj30q908lq40.jpg)
+
+![](https://tva1.sinaimg.cn/large/0082zybpgy1gc4gh5fmanj30ok095abf.jpg)
+
+**The Area Under the Curve (AUC)**
+
+Higher AUC means better performance，随机猜是0.5，一般越高越好
+
+
 ***
 
 ### Feature Selection
