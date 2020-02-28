@@ -74,7 +74,7 @@ Accuracy是最简单明了的方法，但是有局限性，特别是dataset为sk
 
 #### Recall
 <img src="https://tva1.sinaimg.cn/large/0082zybpgy1gc2aet6rtrj313i0u0thk.jpg" width="80%"/>
-> Precision：实际为True的点中，对了多少
+> Recall：实际为True的点中，对了多少
 
 #### F-measure
 当然，一般precision和recall， one goes up， one goes down。实际上我们需要precision和recall都越高越好，这时候就有F-measure派上用场。
