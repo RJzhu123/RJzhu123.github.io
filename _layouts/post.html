@@ -97,11 +97,11 @@ layout: default
                 <script src="{{ site.baseurl }}/js/md5.min.js"></script>
                 <script type="text/javascript">
                     var gitalk = new Gitalk({
-                    clientID: 'Iv1.2d07ac1a37cd84e4',
-                    clientSecret: '6b31f78851841100a7bcc8823c8b4e6f0e00c710',
-                    repo: 'RJzhu123.github.io',
-                    owner: 'RJzhu123',
-                    admin: ['RJzhu123'],
+                    clientID: '{{site.gitalk.clientID}}',
+                    clientSecret: '{{site.gitalk.clientSecret}}',
+                    repo: '{{site.gitalk.repo}}',
+                    owner: '{{site.gitalk.owner}}',
+                    admin: ['{{site.gitalk.admin}}'],
                     distractionFreeMode: {{site.gitalk.distractionFreeMode}},
                     id: md5(location.pathname),
                     });
