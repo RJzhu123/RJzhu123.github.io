@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Lexical Semantics (词汇语义）            # 标题 
+title:      Semantic Representation  (语义表征）          # 标题 
 subtitle:   nlp664-week7 #副标题
 date:       2020-03-01              # 时间
 author:     renjie                      # 作者
